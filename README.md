@@ -15,27 +15,27 @@ Write a Ruby method that converts a string using some of the rules of Leetspeak:
 * All instances of "s" should be replaced with "z" UNLESS it is the first letter of the word.
 ## Specifications
 * Behavior:The program will not do anything to words that don't have any letters affected by Leetspeak                                                                     
-   * Input: "happy"    
-   * Output: "happy"
+    * Input: "happy"    
+    * Output: "happy"
 * Behavior: The program will replace the letter "e" with the number "3"
- * Input: "elephant"    
- * Output: "3l3phant"
+    * Input: "elephant"    
+    * Output: "3l3phant"
  
 * Behavior:The program will replace the letter "0" with the number "0"
-  * Input: "boo boo"
-  * Output: "b00 b00"
+    * Input: "boo boo"
+    * Output: "b00 b00"
 * Behavior: The program will replace the letter "I" with the number "1"
-  * Input: "I like Ike"
-  * Output: "1 l1k3 1k3"
+   * Input: "I like Ike"
+   * Output: "1 l1k3 1k3"
 * Behavior: The program will replace the letter "s" with the letter "z"
- * Input: "roses"
- * Output: "r0z3z"
+   * Input: "roses"
+   * Output: "r0z3z"
 * Behavior: The program will not replace the letter "s" with the letter "z" when "s" is the first letter in the word
-  * Input: "sassafras"
-  * Output: "sazzafraz"
+   * Input: "sassafras"
+   * Output: "sazzafraz"
 * Behavior:The program will perform these replacements correctly for all the words in a string, not just a single word
-  * Input: "I scream you scream we all scream for raspberry ice cream."
-  * Output: "1 scr3am y0u scr3am w3 all scr3am f0r razpb3rry ic3 cr3am"
+   * Input: "I scream you scream we all scream for raspberry ice cream."
+   * Output: "1 scr3am y0u scr3am w3 all scr3am f0r razpb3rry ic3 cr3am"
 
 ## Setup/Installation Requirements
 
